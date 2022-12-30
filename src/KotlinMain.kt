@@ -1,7 +1,7 @@
 import java.io.*
 import java.util.*
 
-object Main {
+object KotlinMain {
     @Throws(IOException::class)
     @JvmStatic
     fun main(args: Array<String>) {
