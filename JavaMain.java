@@ -28,7 +28,6 @@ public class JavaMain {
 		System.out.println("Finished!");
 	}
 
-
 	private static List<File> findFiles(String path) {
 		File folder = new File(path);
 		return Arrays.stream(Objects.requireNonNull(folder.listFiles())).toList();
